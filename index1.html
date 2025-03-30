@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Thanh Menu Dọc</title>
+    <style>
+        /* Cơ bản cho body */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            display: flex;
+        }
+
+        /* Thanh menu dọc */
+        .sidebar {
+            width: 200px;
+            background-color: #333;
+            height: 100vh; /* Chiều cao bằng toàn bộ chiều cao của trang */
+            padding-top: 20px;
+            position: fixed;
+            left: 0;
+            top: 0;
+        }
+
+        .sidebar a {
+            color: white;
+            padding: 10px 15px;
+            text-decoration: none;
+            display: block;
+            transition: background-color 0.3s;
+        }
+
+        .sidebar a:hover {
+            background-color: #ddd;
+            color: black;
+        }
+
+        /* Nội dung chính của trang */
+        .content {
+            margin-left: 220px;
+            padding: 20px;
+        }
+
+        h2 {
+            color: #333;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Thanh menu dọc -->
+    <div class="sidebar">
+        <ul>
+            <li><a href="bt1buoi6_chia layer.html">Bài tập 1 </a></li>
+            <li><a href="bt2buoi6.html">Bài tập 2</a>
+            </li><a href="bt3buoi6.html">Bài tập 3</a>    
+        </ul>
+    </div>
+
+    <!-- Nội dung chính của trang -->
+    <div class="content">
+        <h2>Trang nộp BT của Nguyễn Hiếu</h2>
+        <p>Nguyễn Mạnh Hiếu CNTTD2024</p>
+    </div>
+
+</body>
+</html>
